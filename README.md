@@ -26,7 +26,10 @@ I work with three ensemble methods to my dataset above:
 2. Boosting
 3. Stacking
 
+This is an example of my analysis to the model: 
 ![image](https://user-images.githubusercontent.com/71423299/157905025-f3f8272a-98e9-4e62-b518-4815453e3ed4.png)
+![image](https://user-images.githubusercontent.com/71423299/157905096-9a660228-3134-454f-b611-af2318402c59.png)
+
 
 
 For this project – I used the parallel processing to enhance the process speed.
