@@ -26,6 +26,9 @@ I work with three ensemble methods to my dataset above:
 2. Boosting
 3. Stacking
 
+![image](https://user-images.githubusercontent.com/71423299/157905025-f3f8272a-98e9-4e62-b518-4815453e3ed4.png)
+
+
 For this project – I used the parallel processing to enhance the process speed.
 library(doParallel)
 cl <- makePSOCKcluster(5)
