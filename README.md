@@ -14,8 +14,25 @@ Using R programming, I perform exploratory analysis:
 8. Data correlation between features
 
 
-Using R programming, I work with individual classifiers:
+individual classifiers:
 1. Naïve Bayes
 2. Support Vector Machine
 3. Decision Tree
 4. Nearest Neighbor
+
+
+I work with three ensemble methods to my dataset above:
+1. Random Forest
+2. Boosting
+3. Stacking
+
+For this project – I used the parallel processing to enhance the process speed.
+library(doParallel)
+cl <- makePSOCKcluster(5)
+registerDoParallel(cl)
+
+Unfortunately, using one-hot-encoded data made the data leakage during cross-validation, but I
+performed cross-validation folding in Generalized-boosting model and this could be why it performed
+better than XGBoost as the cross validation is very effective on reducing bias as the model use the most
+of the data for fitting, while reduces variance by using the most data for validation set. So it balances out
+bias and variances in an useful way.
