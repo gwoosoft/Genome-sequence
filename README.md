@@ -42,3 +42,9 @@ performed cross-validation folding in Generalized-boosting model and this could 
 better than XGBoost as the cross validation is very effective on reducing bias as the model use the most
 of the data for fitting, while reduces variance by using the most data for validation set. So it balances out
 bias and variances in an useful way.
+
+
+![image](https://user-images.githubusercontent.com/71423299/158017619-bd994aec-8dd6-486c-91c5-07b26531ae77.png)
+
+![image](https://user-images.githubusercontent.com/71423299/158017616-a324f1ff-7b6c-4a94-9e06-3960f94a40e7.png)
+
